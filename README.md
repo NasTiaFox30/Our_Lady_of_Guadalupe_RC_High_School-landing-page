@@ -2,7 +2,7 @@
 React + Vite
 
 ## Hours
-2 hours.
+5 hours.
 
 ## Started - Ended
 30.11.2025 - 30.11.2025
