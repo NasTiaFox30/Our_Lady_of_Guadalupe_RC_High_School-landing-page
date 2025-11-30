@@ -1,15 +1,15 @@
-# Belmopan Comprehensive School (landing page)
+# Our Lady of Guadalupe Roman Catholic High School (landing page)
 React + Vite
 
 ## Hours
-3 hours.
+2 hours.
 
 ## Started - Ended
-29.11.2025 - 30.11.2025
+30.11.2025 - 30.11.2025
 
 
 # Application:
-Landing page of college - template №4
+Landing page of college - template №5
 
 
 ## Libraries:
@@ -19,7 +19,7 @@ Landing page of college - template №4
 
 
 ## Visit site: 
-https://nastiafox30.github.io/Belmopan_Comprehensive_School-landing-page/
+https://nastiafox30.github.io/Our_Lady_of_Guadalupe_RC_High_School-landing-page/
 
 ---------------------------------------------------------------
 _**Creator: Anastasiia Bzova 2025**_
