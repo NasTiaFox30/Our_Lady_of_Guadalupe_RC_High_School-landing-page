@@ -6,57 +6,56 @@ import slide2 from "../assets/images/slider2.jpg";
 import slide3 from "../assets/images/slider3.jpg";
 
 export const schoolInfo = {
-    name: "Belmopan Comprehensive School",
-    shortName: "BCS",
-    typeofSchool: "School",
+    name: "Our Lady of Guadalupe Roman Catholic High School",
+    shortName: "OLOG RC",
+    typeofSchool: "High School",
     logo: "logo.jpg",
     mainImage: mainPhoto, 
-    mainVideo: "https://www.youtube.com/embed/lNjUAPrIBlI?si=Tw7oG2doivrRpxRF",
-    GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.4533617758702!2d-88.76907949999999!3d17.245287899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5dd57532e4d525%3A0x2eb97a22756ffd58!2sBelmopan%20Comprehensive%20School!5e0!3m2!1suk!2spl!4v1764514238443!5m2!1suk!2spl",
+    mainVideo: "",
+    GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7620.006987345282!2d-88.77227687525179!3d17.26706591887313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5dd53eeb70a3c5%3A0x49f16f5b79b55ec3!2sOur%20Lady%20Of%20Guadalupe%20Highschool!5e0!3m2!1suk!2spl!4v1764522309466!5m2!1suk!2spl",
     
     about: {
-        welcomeText: "where we are dedicated to providing a holistic education that encompasses academic excellence, vocational skills, and strong community engagement.",
-        historyText: "Belmopan Comprehensive School (BCS) has a long-standing history as a pillar of secondary education in Belize's capital city. Founded in 1973 as a direct response to the growing need for diverse and quality education, BCS was established with a unique vision to integrate both academic and vocational training. Over the decades, the school has consistently expanded its curriculum, becoming known for its 'comprehensive' approach - ensuring students are prepared for both higher education and the workforce. The school quickly grew from its initial modest enrollment to become one of the largest and most influential high schools in the Cayo District. A key milestone was the expansion of its technical wing in the [Insert Decade, e.g., 1990s], solidifying its commitment to vocational areas like Business, Home Economics, and Industrial Arts. This commitment ensures that BCS graduates are versatile, skilled, and ready to meet the challenges of the modern economy, maintaining its reputation as a leading institution in Belmopan.", 
-        footerText: "Belmopan Comprehensive School is one of the top secondary schools in Belmopan. Offering quality education and preparation for students."
-
+        welcomeText: "where we are dedicated to providing a value-based, quality secondary education built on Christian principles, academic rigor, and respectful conduct.",
+        historyText: "Our Lady of Guadalupe Roman Catholic High School (OLOGRCHS) was established in September 2003. The foundation of the school was a direct response to the request from Roman Catholics in Belmopan and surrounding communities to their Parish Priest and the Most Reverend Bishop O.P. Martin, Bishop of Belize and Belmopan, for a new secondary institution. Its first campus was humbly located at the compound of the Our Lady of Guadalupe Co-Cathedral on the Ring Road, utilizing the Parish Hall as its initial classrooms. The school subsequently relocated to its permanent compound on the George Price Boulevard, City of Belmopan, in August 2007. Since its inception, OLOGRCHS has been committed to facilitating core Christian values, maintaining a caring but firm discipline policy, and preparing students to serve God, their fellow man, and their country, as encapsulated in the School Pledge.",
+        footerText: "Our Lady of Guadalupe R.C. High School is committed to facilitating and providing reinforcement of core values, intervention and enforcement, ensuring the safest and best learning environment possible for our students."
     },
     contacts: {
         country: "Belize",
-        address: "George Price Blvd, Belmopan, Belize",
-        phoneMain: "(+501) 822-2253",
-        phoneAdditional: "(+501) 613-1976",
-        email: "svaughan@bcs.edu.bz",
+        address: "Geaorge Price Blvd. City of Belmopan, Cayo District, Belize, C.A.",
+        phoneMain: "(+501) 822 0602 ",
+        phoneAdditional: "(+501) 822 0602",
+        email: "ologh@ologh.edu.bz",
         businessHours: {
-            weekdays: "Mon-Fri: 7:00 AM - 4:00 PM",
-            saturday: "Saturday: 9:00 AM - 1:00 PM"
+            weekdays: "Mon-Fri: 8:00 AM - 4:00 PM",
+            saturday: "Saturday: 8:00 AM - 12:00 AM"
         }
     },
     socials: {
-        facebook: "https://www.facebook.com/BelmopanComprehensiveSchool/",
-        instagram: "https://www.instagram.com/explore/locations/279300008/belmopan-comprehensive-school/",
-        // linkedin: "",
-        // youtube: "",
+        facebook: "https://www.facebook.com/ologh.bmp.bz",
+        instagram: "https://www.instagram.com/explore/locations/628915690610298/our-lady-of-guadalupe-roman-catholic-high-school/",
+        linkedin: "",
+        youtube: "",
     },
 
     heroSlider: [
         {
-            title: "COMPREHENSIVE EDUCATION. COLLECTIVE SUCCESS.",
-            subtitle: "Equipping students with the holistic knowledge required for leadership and innovation in Belmopan City.",
-            buttonText: "Our Programs",
+            title: "FAITH, KNOWLEDGE, AND SERVICE",
+            subtitle: "Providing a robust, value-based secondary education guided by Roman Catholic principles and academic excellence.",
+            buttonText: "Our Mission",
             buttonLink: "#about",
             image: slide1
         },
         {
-            title: "UNLOCK YOUR COMPREHENSIVE POTENTIAL",
-            subtitle: "Blending academic rigor, vocational training, and extracurricular life for well-rounded growth.",
-            buttonText: "Student Life & Activities",
+            title: "A FOUNDATION FOR LIFE'S JOURNEY",
+            subtitle: "Nurturing students in a supportive, disciplined environment to become responsible citizens and future leaders.",
+            buttonText: "Principal's Statement",
             buttonLink: "#gallery",
             image: slide2
         },
         {
-            title: "THE HEART OF THE BELMOPAN COMMUNITY",
-            subtitle: "Join a learning environment that shapes responsible citizens and future leaders.",
-            buttonText: "Apply Now",
+            title: "JOIN OUR CATHOLIC COMMUNITY",
+            subtitle: "Honoring Our Lady of Guadalupe while inspiring students to live lives of faith, honour, and dedication.",
+            buttonText: "Apply Today",
             buttonLink: "#contact",
             image: slide3
         }
