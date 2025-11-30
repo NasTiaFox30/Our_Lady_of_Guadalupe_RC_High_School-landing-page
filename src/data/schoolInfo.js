@@ -62,9 +62,147 @@ export const schoolInfo = {
     ],
 
     teachers: {
-        'Bay_Rivas': {
+        
+        // Office of Administration
+        'Barrette_Belisle': {
             subject: "",
-            bio: "Principal"
+            bio: "Principal",
+            email: "ologh@ologh.edu.bz"
+        },
+        'Carmito_Sierra': {
+            subject: "",
+            bio: "Vice Principal",
+            email: "ologh@ologh.edu.bz"
+        },
+
+        // Members of Staff
+        'Yolanda_August': {
+            subject: "",
+            bio: "Bursar",
+            email: "ologh@ologh.edu.bz"
+        },
+        'Anita_Sabido': {
+            subject: "",
+            bio: "Secretary",
+            email: "ologh@ologh.edu.bz	"
+        },
+        'Ionie_Reid': {
+            subject: "",
+            bio: "Warden",
+            email: ""
+        },
+        'Justina_Coy': {
+            subject: "",
+            bio: "Care-taker",
+            email: ""
+        },
+        'Jacobo Chacon': {
+            subject: "",
+            bio: "Care-taker",
+            email: ""
+        },
+
+        // Arts Department
+        'Gaina_Wagner': {
+            subject: "Integrated English / Literature",
+            bio: "Chair/Councilor/Teacher",
+            email: "gwagner@ologh.edu.bz"
+        },
+        'Derick_Turton': {
+            subject: "Life Skills / Religion / History	",
+            bio: "Teacher",
+            email: "dturton@ologh.edu.bz"
+        },
+        'Clifford_King': {
+            subject: "Social Studies",
+            bio: "Teacher",
+            email: "cking@ologh.edu.bz"
+        },
+        'Patrick_Scott': {
+            subject: "Agriculture",
+            bio: "Teacher (Part Time)",
+            email: "pscott@ologh.edu.bz"
+        },
+        'Oliver_Smalls': {
+            subject: "Life Skills",
+            bio: "Teacher",
+            email: "osmalls@ologh.edu.bz"
+        },
+
+        // Business and Information Technology Department
+        'Zenaida_Romero': {
+            subject: "Mathematics",
+            bio: "Chair/Teacher",
+            email: "zromero@ologh.edu.bz"
+        },
+        'Ivor_Nicholas': {
+            subject: "Information Technology",
+            bio: "Computer Admin/Teacher",
+            email: "inicholas@ologh.edu.bz"
+        },
+        'Anson_Brackett': {
+            subject: "Mathematics / Tech. Drawing",
+            bio: "Teacher",
+            email: "abrackettologh.edu.bz"
+        },
+        'Cirilo_Mahung': {
+            subject: "Mathematics",
+            bio: "Teacher (Part Time)",
+            email: "cmahung@ologh.edu.bz"
+        },
+
+        //Language Department
+        'Judith_Lopez': {
+            subject: "Integrated English / Literature",
+            bio: "Chair/Teacher",
+            email: "jlopez@ologh.edu.bz"
+        }, 
+        'Franklene_Franco': {
+            subject: "Integrated English",
+            bio: "Teacher",
+            email: "ffranco@ologh.edu.bz"
+        },  
+        'Corini_West': {
+            subject: "Integrated English",
+            bio: "Teacher",
+            email: "cwest@ologh.edu.bz"
+        },
+        'Niurka_Nunez': {
+            subject: "Spanish",
+            bio: "Detention Mistress/Teacher",
+            email: "nnunez@ologh.edu.bz"
+        },
+        'Kathia_Castaneda': {
+            subject: "Spanish / Life Skills",
+            bio: "Teacher",
+            email: "ccastaneda@ologh.edu.bz"
+        },
+
+        // Science Department
+        'Odalis_Hernandez': {
+            subject: "Integrated Science / Biology",
+            bio: "Chair/Teacher",
+            email: "ohernandez@ologh.edu.bz"
+        },
+        'Raul_Castillo': {
+            subject: "Physics",
+            bio: "Teacher",
+            email: "ccastaneda@ologh.edu.bz"
+        },
+        'Melva_Guerra': {
+            subject: "Chemistry",
+            bio: "Teacher",
+            email: "mguerra@ologh.edu.bz"
+        },
+        'Elenita_Noralez': {
+            subject: "Life Skills",
+            bio: "Teacher",
+            email: "enoralez@ologh.edu.bz"
+        },
+        'Gabriel_Eck': {
+            subject: "Info. Tech. / Physical Ed.",
+            bio: "Teacher",
+            email: "geck@ologh.edu.bz"
         },
     },
     galleryCaptions: {
