@@ -16,30 +16,30 @@ body {
 }
 
 :root {
-    --primary: #2B572B;
-    --secondary: #679237;
-    --accent: #FFD200;
-    --addition: #E6E0AC;
+    --primary: #A64747;
+    --secondary: #FFC300;
+    --accent: #64B5F6;
+    --addition: #F8F7F3;
 
     --bg-color: var(--addition);
-    --bg-picture: rgba(43, 87, 43, 0.4);
+    --bg-picture: rgba(166, 71, 71, 0.2);
 
-    --btn-color: var(--secondary);
-    --btn-text-color: var(--section-text-invers);
+    --btn-color: var(--primary);
+    --btn-text-color: var(--addition);
 
-    --icon-color: var(--secondary);
+    --icon-color: var(--primary);
 
-    --section-name-color: var(--primary);
-    --section-text: #212121;
-    --section-text-invers: #f1f1f1;
+    --section-name-color: var(#414A4C);
+    --section-text: var(#414A4C);
+    --section-text-invers: var(--addition);
 
     --section-color: var(--primary);
-    --gradient: linear-gradient(135deg, var(--primary) 0%, #1A361A 100%);
+    --gradient: linear-gradient(135deg, var(--primary) 0%, #7A3535 100%);
 
-    --header-color: rgba(43, 87, 43, 0.98);
-    --footer-color: #1A361A;
+    --header-color: rgba(166, 71, 71, 0.95);
+    --footer-color: #7A3535;
 
-    --header-menu-color: #2B572Bf7;
+    --header-menu-color: #A64747f7;
 }
 
 .section {
