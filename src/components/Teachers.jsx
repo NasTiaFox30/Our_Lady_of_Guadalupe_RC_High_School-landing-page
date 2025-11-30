@@ -102,35 +102,37 @@ const Teachers = () => {
         
         <div className="teachers-slider-container">
           <Swiper {...swiperParams} className="teachers-slider">
-            {teachers.map((teacher, index) => (
-              <SwiperSlide key={index}>
-                <div className="teacher-card">
-                  <div className="teacher-image">
-                    <img src={teacher.image} alt={teacher.name} />
-                    <div className="teacher-overlay">
-                      <div className="teacher-bio">
-                        <p>{teacher.bio}</p>
+            {teachers.map((teacher, index) => {
+              const hasImage = !!teacher.image;
+              return (
+                <SwiperSlide key={index}>
+                  <div className={`teacher-card ${!hasImage ? 'no-image-card' : ''}`}>
+                    {hasImage ? (
+                      <div className="teacher-image">
+                        <img src={teacher.image} alt={teacher.name} />
+                        <div className="teacher-overlay">
+                          <div className="teacher-bio">
+                            <p>{teacher.bio}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                        <div className="teacher-image-placeholder">
+                            <i><FaChalkboardTeacher/></i>
+                        </div>
+                    )}
+                      
+                    <div className="teacher-info">
+                      <h3>{teacher.name}</h3>
+                      <p className="teacher-subject">{hasImage ? teacher.subject : teacher.bio}</p>
+                      <div className="teacher-social">
+                        <a href="#" aria-label="Send email">{teacher.email}</a>
                       </div>
                     </div>
                   </div>
-                  <div className="teacher-info">
-                    <h3>{teacher.name}</h3>
-                    <p className="teacher-subject">{teacher.subject}</p>
-                    <div className="teacher-social">
-                      <a href="#" aria-label="LinkedIn profile">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                      <a href="#" aria-label="Send email">
-                        <i className="fas fa-envelope"></i>
-                      </a>
-                      <a href="#" aria-label="View profile">
-                        <i className="fas fa-user"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </div>
