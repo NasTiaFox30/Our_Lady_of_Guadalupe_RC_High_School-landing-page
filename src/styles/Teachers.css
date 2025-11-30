@@ -117,7 +117,7 @@
 
 .teacher-social a:hover {
     background: var(--primary-color);
-    color: white;
+    color: rgb(110, 110, 110);
     transform: translateY(-2px);
 }
 
