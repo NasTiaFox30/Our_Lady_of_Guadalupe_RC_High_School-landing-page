@@ -34,10 +34,11 @@ const Teachers = () => {
     const details = getTeacherDetails(fileName);
 
     return {
-      image: module.default,
+      image: image || null, 
       name: formattedName,
-      subject: details.subject,
-      bio: details.bio
+      subject: details.subject || "",
+      bio: details.bio || "Teacher",
+      email: details.email || ""
     };
   });
 
