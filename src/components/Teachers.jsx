@@ -16,22 +16,16 @@ const Teachers = () => {
 
   const images = import.meta.glob('../assets/images/teachers/*.{jpg,jpeg,png}', { eager: true });
 
-  const getTeacherDetails = (fileName) => {
-    const details = schoolInfo.teachers;
-
+  const imageMap = Object.entries(images).reduce((acc, [path, module]) => {
+    const fileName = path.split('/').pop(); 
     const key = fileName.replace(/\.[^/.]+$/, "");
-    return details[key] || { subject: "", bio: "Teacher" }
-  };
+    acc[key] = module.default;
+    return acc;
+  }, {});
 
-  const teachers = Object.entries(images).map(([path, module]) => {
-    // get file name ("Alvin_Young.jpg")
-    const fileName = path.split('/').pop();
-    
-    // remove '/' and replace with 'space'
-    const rawName = fileName.replace(/\.[^/.]+$/, "");
-    const formattedName = rawName.replace(/_/g, ' ');
-
-    const details = getTeacherDetails(fileName);
+  const teachers = Object.entries(schoolInfo.teachers).map(([key, details]) => {
+    const formattedName = key.replace(/_/g, ' ');
+    const image = imageMap[key]; 
 
     return {
       image: image || null, 
