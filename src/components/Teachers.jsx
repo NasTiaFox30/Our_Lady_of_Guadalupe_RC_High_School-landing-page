@@ -120,7 +120,7 @@ const Teachers = () => {
                       <h3>{teacher.name}</h3>
                       <p className="teacher-subject">{hasImage ? teacher.subject : teacher.bio}</p>
                       <div className="teacher-social">
-                        <a href="#" aria-label="Send email">{teacher.email}</a>
+                        <a href={`mailto:${teacher.email}`} aria-label="Send email">{teacher.email}</a>
                       </div>
                     </div>
                   </div>
