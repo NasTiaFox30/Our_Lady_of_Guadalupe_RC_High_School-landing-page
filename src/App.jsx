@@ -14,10 +14,10 @@ export default function App() {
     <div className="App">
       <Header />
       <HeroSlider />
-      <About />
       {/* <Statistics />   */}
       {/* <Teachers/> */}
       <Gallery />
+      <About />
       <Contact />
       {/* <Newsletter /> */}
       <GoogleMaps />
